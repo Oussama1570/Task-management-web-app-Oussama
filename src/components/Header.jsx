@@ -4,7 +4,7 @@ import Logo from "../assets/Logo Oussama Graphics.png";
 import iconDown from "../assets/icon-chevron-down.svg";
 import iconUp from "../assets/icon-chevron-up.svg";
 import elipsis from "../assets/icon-vertical-ellipsis.svg";
-import HeaderDropDown from "./HeaderDropDown";
+import HeaderDropDown from "./HeaderDropDown.jsx";
 import ElipsisMenu from "./ElipsisMenu";
 import AddEditTaskModal from "../modals/AddEditTaskModal";
 import AddEditBoardModal from "../modals/AddEditBoardModal";
