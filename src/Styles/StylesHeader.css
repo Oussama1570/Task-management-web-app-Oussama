@@ -1,0 +1,34 @@
+.Logo-Oussama-Graphics {
+  height: 50px;
+  width: 50px;
+}
+
+
+/* =========================================
+   Oussama Graphics Logo
+========================================= */
+
+.Logo-Oussama-Graphics {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Prevent any dark-mode filter/invert from affecting logo */
+.header-logo img,
+.Logo-Oussama-Graphics,
+.nav-logo img,
+.logo img {
+  filter: none !important;
+  mix-blend-mode: normal !important;
+  opacity: 1 !important;
+}
+
+/* Extra safety if you have classes like .dark or .dark-mode */
+html.dark .Logo-Oussama-Graphics,
+html.dark .header-logo img,
+.dark .Logo-Oussama-Graphics,
+.dark-mode .Logo-Oussama-Graphics {
+  filter: none !important;
+}
